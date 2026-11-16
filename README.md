@@ -2,7 +2,7 @@ Now let's convert the existing `#capture` div into a Canvas and then export it a
 
 Add this script before `</body>` in your HTML file.
 
-```
+```javascript
 
 async function convertDivToImage() {
     const element = document.querySelector("#capture");
